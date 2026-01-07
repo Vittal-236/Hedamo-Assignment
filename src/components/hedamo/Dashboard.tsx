@@ -58,9 +58,13 @@ export default function Dashboard() {
         <div className="min-h-screen p-8 max-w-7xl mx-auto font-sans text-stone-900 bg-stone-50/30">
             {/* Header */}
             <header className="mb-10 max-w-2xl">
-                <h1 className="text-3xl font-bold tracking-tight text-stone-900">Product Disclosure Registry</h1>
+                <div className="flex items-center gap-4 mb-3">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src="/logo.png" alt="HEDAMO Logo" className="h-12 w-auto object-contain" />
+                    <h1 className="text-4xl font-bold tracking-tight text-stone-900 border-l border-stone-300 pl-4">HEDAMO</h1>
+                </div>
                 <p className="text-stone-500 mt-2 text-lg leading-relaxed">
-                    Access transparent, producer-declared information about product origins and certifications.
+                    Product Disclosure Registry — Access transparent, producer-declared information.
                 </p>
             </header>
 
